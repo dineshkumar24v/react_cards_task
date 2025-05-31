@@ -1,5 +1,5 @@
-import './Components.css'
 
+import './Components.css'
 
 function Newtask1(){
   return(
@@ -7,8 +7,8 @@ function Newtask1(){
       <img src="react.svg"/>
       <h1>Start Building Today</h1>
       <div style={{padding:"10px"}}>
-      <button style={{padding:"10px 25px",borderRadius:"10px",marginRight:"10px",backgroundColor:"#057080",border:"none"}}>Start Building</button>
-      <button style={{padding:"10px 25px",borderRadius:"10px",border:"none"}}>Contact Sales</button>
+      <button  className='task1Button'>Start Building</button>
+      <button className='task1Button'>Contact Sales</button>
       </div>
     </div>
   )

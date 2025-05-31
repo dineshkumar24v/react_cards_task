@@ -38,3 +38,16 @@ h1{
   transform: scale(1.05);
 }
 /*  Newtask1.css */
+.task1Button{
+  padding:10px 25px; 
+  border-radius:10px;
+  margin-right:10px;
+  background-color:#057080;
+  border:none;
+  cursor:pointer;
+  transition: transform 1s ease;
+}
+.task1Button:hover{
+  transform: scale(1.05);
+  color: white;
+}
